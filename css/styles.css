@@ -1,0 +1,91 @@
+body{
+    background-image: url("https://wallpaperset.com/w/full/5/4/f/225692.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+figure img{
+    grid-template-columns:auto;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px;
+}
+
+.topo{
+    margin-top: 20px; 
+    margin-left: 20px;
+}
+
+form {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color:rgb(255, 255, 255);
+    border: 1px solid #ddd;
+    border-color: rgb(51, 104, 219);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input[type="name"],
+input[type="email"]{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+input[type="tel"],
+input[type="city"],
+input[type="state"]{
+    margin-bottom: 20px;
+    box-sizing: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="bairro"],
+input[type="zip"]{
+    margin-bottom: 20px;
+    box-sizing: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: rgb(51, 104, 219)
+}
+
+header{
+    background-color: rgb(51, 104, 219) ;
+    padding: 10px;
+}
+
+footer{
+    background-color: rgb(51, 104, 219);
+    text-align: center;
+}
+
+@media(max-width: 768px){   
+    nav ul{
+        flex-direction: column;
+    }
+    header{
+        flex-direction: column;
+    }
+
+    img{
+        width: 90%;
+    }
+}
+
